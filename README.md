@@ -181,3 +181,14 @@ mvp-assessment/
 ✅ **Deployment**: Ready for Vercel deployment (configure environment variables)  
 ✅ **RLS Note**: RLS policies documented above - minimal public read access  
 ✅ **Professionalism**: Clean UI, no secrets in repo, comprehensive README
+
+## Ask Box (not implemented)
+
+This feature introduces dynamic user input (natural language questions) which significantly expands the project scope beyond the core dashboard requirements.
+
+**Technical Complexity**:
+
+- Requires natural language processing to parse user questions like "What was Team X's revenue in 2022, and what was the YoY change?"
+- Would need either a complex query parser or LLM integration to interpret various question formats
+- Security considerations with dynamic input validation and SQL injection prevention
+- Additional API endpoints for question processing and response formatting
